@@ -1,0 +1,33 @@
+/* styles for screens larger than 768px */
+.one_meal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onemeal_img {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 550px;
+}
+
+.one_meal h4 {
+  color: rgb(238, 145, 23);
+}
+
+/* styles for screens smaller than 768px */
+@media (max-width: 768px) {
+  .one_meal {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .onemeal_img {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .one_meal h4 {
+    font-size: 24px;
+  }
+}

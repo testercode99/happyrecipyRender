@@ -1,0 +1,35 @@
+/* styles for screens larger than 768px */
+.category h4 {
+  color: rgb(0, 0, 0);
+  text-decoration: underline orange;
+  margin-top: 40px;
+}
+
+.category img {
+  width: 200px;
+  height: 200px;
+}
+
+.category button {
+  margin-bottom: 20px;
+  margin-left: 40px;
+  background-color: #fdd661;
+}
+
+/* styles for screens smaller than 768px */
+@media (max-width: 768px) {
+  .category h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .category img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .category button {
+    display: block;
+    margin: 20px auto;
+  }
+}
